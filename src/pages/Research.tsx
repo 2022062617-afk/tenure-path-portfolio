@@ -7,7 +7,7 @@ const Research = () => {
       <div className="container mx-auto px-4 max-w-6xl">
         <h1 className="text-4xl font-bold mb-4 text-foreground">Research</h1>
         <p className="text-xl text-muted-foreground mb-12">
-          My research explores [main research areas] with a focus on [specific interests].
+          My research explores Image Processing, Signal Processing, Video Compression, IoT, and AI Applications in Engineering and Healthcare.
         </p>
 
         {/* Research Interests */}
@@ -15,12 +15,14 @@ const Research = () => {
           <h2 className="text-2xl font-semibold mb-6 text-foreground">Research Interests</h2>
           <Card className="p-6">
             <div className="flex flex-wrap gap-2">
+              <Badge variant="secondary" className="text-sm">Image Processing</Badge>
+              <Badge variant="secondary" className="text-sm">Signal Processing</Badge>
+              <Badge variant="secondary" className="text-sm">Video Compression</Badge>
+              <Badge variant="secondary" className="text-sm">Biomedical Engineering</Badge>
+              <Badge variant="secondary" className="text-sm">Digital Signal Processing</Badge>
+              <Badge variant="secondary" className="text-sm">IoT Applications</Badge>
+              <Badge variant="secondary" className="text-sm">ECG Signal Analysis</Badge>
               <Badge variant="secondary" className="text-sm">Machine Learning</Badge>
-              <Badge variant="secondary" className="text-sm">Data Science</Badge>
-              <Badge variant="secondary" className="text-sm">Artificial Intelligence</Badge>
-              <Badge variant="secondary" className="text-sm">Deep Learning</Badge>
-              <Badge variant="secondary" className="text-sm">Computer Vision</Badge>
-              <Badge variant="secondary" className="text-sm">Natural Language Processing</Badge>
             </div>
           </Card>
         </section>
@@ -90,18 +92,22 @@ const Research = () => {
         {/* Research Impact */}
         <section>
           <h2 className="text-2xl font-semibold mb-6 text-foreground">Research Impact</h2>
-          <div className="grid md:grid-cols-3 gap-6">
+          <div className="grid md:grid-cols-4 gap-6">
             <Card className="p-6 text-center">
-              <div className="text-4xl font-bold text-primary mb-2">25+</div>
-              <p className="text-muted-foreground">Publications</p>
+              <div className="text-4xl font-bold text-primary mb-2">16+</div>
+              <p className="text-muted-foreground">Journal Publications</p>
             </Card>
             <Card className="p-6 text-center">
-              <div className="text-4xl font-bold text-primary mb-2">500+</div>
-              <p className="text-muted-foreground">Citations</p>
+              <div className="text-4xl font-bold text-primary mb-2">3</div>
+              <p className="text-muted-foreground">Patents Filed</p>
             </Card>
             <Card className="p-6 text-center">
-              <div className="text-4xl font-bold text-primary mb-2">10+</div>
-              <p className="text-muted-foreground">Collaborators</p>
+              <div className="text-4xl font-bold text-primary mb-2">5</div>
+              <p className="text-muted-foreground">Books Published</p>
+            </Card>
+            <Card className="p-6 text-center">
+              <div className="text-4xl font-bold text-primary mb-2">18+</div>
+              <p className="text-muted-foreground">Years Experience</p>
             </Card>
           </div>
         </section>

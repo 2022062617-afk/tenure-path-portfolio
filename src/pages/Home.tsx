@@ -11,13 +11,13 @@ const Home = () => {
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto text-center">
             <h1 className="text-4xl md:text-6xl font-bold mb-6 text-foreground">
-              Welcome to My Academic Portfolio
+              Dr. K. Vidyavathi
             </h1>
             <p className="text-xl md:text-2xl text-muted-foreground mb-8">
-              Assistant Professor | Researcher | Educator
+              Professor | Electronics & Communication Engineering
             </p>
             <p className="text-lg text-muted-foreground mb-10 max-w-2xl mx-auto">
-              Passionate about advancing knowledge through innovative research and inspiring the next generation of scholars.
+              Advancing knowledge in Image Processing, Signal Processing, and IoT through innovative research and inspiring the next generation of engineers.
             </p>
             <div className="flex flex-wrap justify-center gap-4">
               <Link to="/about">
@@ -95,7 +95,7 @@ const Home = () => {
             <Card className="p-6">
               <h3 className="text-lg font-semibold mb-2 text-card-foreground">Latest Publication</h3>
               <p className="text-muted-foreground mb-4">
-                Published in prestigious journal - Title of Recent Paper (2024)
+                "Real time risk monitoring system for Oil and gas Industry Using AI and IOT" - Indica Journal, 2025
               </p>
               <Link to="/publications">
                 <Button variant="link" className="p-0">Read more →</Button>
@@ -103,9 +103,9 @@ const Home = () => {
             </Card>
 
             <Card className="p-6">
-              <h3 className="text-lg font-semibold mb-2 text-card-foreground">Research Grant</h3>
+              <h3 className="text-lg font-semibold mb-2 text-card-foreground">Recent Patent</h3>
               <p className="text-muted-foreground mb-4">
-                Awarded research grant for innovative project in [Field]
+                "Advancing Breast Cancer Detection with Machine Learning" - Published August 2024
               </p>
               <Link to="/research">
                 <Button variant="link" className="p-0">Learn more →</Button>
@@ -113,11 +113,11 @@ const Home = () => {
             </Card>
 
             <Card className="p-6">
-              <h3 className="text-lg font-semibold mb-2 text-card-foreground">Conference Talk</h3>
+              <h3 className="text-lg font-semibold mb-2 text-card-foreground">New Book</h3>
               <p className="text-muted-foreground mb-4">
-                Invited speaker at International Conference 2024
+                "Ethics and Social Implications of AI" - Published March 2025
               </p>
-              <Link to="/about">
+              <Link to="/publications">
                 <Button variant="link" className="p-0">View details →</Button>
               </Link>
             </Card>

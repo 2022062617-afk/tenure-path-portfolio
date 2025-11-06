@@ -17,7 +17,7 @@ const Contact = () => {
       <div className="container mx-auto px-4 max-w-6xl">
         <h1 className="text-4xl font-bold mb-4 text-foreground">Contact</h1>
         <p className="text-xl text-muted-foreground mb-12">
-          Get in touch for collaboration opportunities or inquiries
+          Get in touch for research collaboration, student inquiries, or professional opportunities
         </p>
 
         <div className="grid md:grid-cols-2 gap-8">
@@ -32,10 +32,10 @@ const Contact = () => {
                   <div>
                     <h3 className="font-semibold text-card-foreground mb-1">Email</h3>
                     <a 
-                      href="mailto:your.email@university.edu" 
+                      href="mailto:vidyavathiece.2010@gmail.com" 
                       className="text-muted-foreground hover:text-primary transition-colors"
                     >
-                      your.email@university.edu
+                      vidyavathiece.2010@gmail.com
                     </a>
                   </div>
                 </div>
@@ -46,7 +46,7 @@ const Contact = () => {
                   <Phone className="h-6 w-6 text-primary mt-1" />
                   <div>
                     <h3 className="font-semibold text-card-foreground mb-1">Phone</h3>
-                    <p className="text-muted-foreground">+1 (555) 123-4567</p>
+                    <p className="text-muted-foreground">+91-9952199821</p>
                   </div>
                 </div>
               </Card>
@@ -57,10 +57,10 @@ const Contact = () => {
                   <div>
                     <h3 className="font-semibold text-card-foreground mb-1">Office</h3>
                     <p className="text-muted-foreground">
-                      Department of [Your Department]<br />
-                      [University Name]<br />
-                      Building Name, Room 123<br />
-                      City, State ZIP
+                      Department of Electronics and Communication Engineering<br />
+                      Gnanamani College of Technology<br />
+                      Namakkal District<br />
+                      Tamil Nadu, India - 637 001
                     </p>
                   </div>
                 </div>
@@ -72,14 +72,12 @@ const Contact = () => {
               <h2 className="text-2xl font-semibold mb-6 text-foreground">Office Hours</h2>
               <Card className="p-6">
                 <p className="text-muted-foreground mb-4">
-                  I am available during the following times for student consultations:
+                  Available for student consultations and research discussions:
                 </p>
                 <ul className="space-y-2 text-muted-foreground">
-                  <li>• Monday: 2:00 PM - 4:00 PM</li>
-                  <li>• Wednesday: 2:00 PM - 4:00 PM</li>
-                  <li>• Friday: 10:00 AM - 12:00 PM</li>
+                  <li>• Monday - Friday: 9:00 AM - 5:00 PM</li>
                   <li className="mt-4 text-sm">
-                    * Or by appointment - please email to schedule
+                    * Please email in advance to schedule a meeting to ensure availability
                   </li>
                 </ul>
               </Card>
